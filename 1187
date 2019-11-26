@@ -1,0 +1,19 @@
+#1187 área superior
+matriz = [0]*4
+for i in range(0,4):
+    matriz [i]=[0]*4
+    for j in range(0,4):
+        matriz [i][j]= float(input("valor"))
+print ("valores da diagonal principal")
+
+for x in range(0,4):
+    print (matriz [x][x])
+    print("Valores da diagonal secundaria {%1f}".format)
+j=len (matriz[0])-1
+for i in range (0,4):
+    print(matriz [i][j-i])
+
+while i >=1:
+    soma=i+j
+    j-1
+print (soma)
